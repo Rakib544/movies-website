@@ -5,6 +5,9 @@ module.exports = {
   theme: {
     extend: {
       animation: ['group-hover'],
+      screens: {
+        '3xl': '2000px',
+      }
     },
   },
   variants: {
